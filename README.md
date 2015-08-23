@@ -4,13 +4,15 @@ This unofficial Safari Extension allows NGI Eolo users to monitor their traffic 
 
 This is inspired by [Chrome Eolo Extension](https://github.com/alberanid/chrome_eolo_extension), anyway this version is much simpler and does not provide settings/error messages.
 
+You can download it [here](https://github.com/zerbfra/safari-eolo-extension/raw/master/Soglie%20Eolo.safariextz) and install in Safari by clicking on it.
 
 ##Author
 
 Francesco Zerbinati (@zerbfra)
 http://www.zerbinatifrancesco.it
 
-Thanks to:
+The original Chrome version was developed by:
+
 Davide Alberani <da@erlug.linux.it>
 http://www.mimante.net/
 
