@@ -2,7 +2,7 @@
 
 This unofficial Safari Extension allows NGI Eolo users to monitor their traffic and VoIP quotas.
 
-This is inspired by the [Chrome Eolo Extension](https://github.com/alberanid/chrome_eolo_extension) but this version is much simpler and does not provide settings/error messages.
+This is inspired by [Chrome Eolo Extension](https://github.com/alberanid/chrome_eolo_extension), anyway this version is much simpler and does not provide settings/error messages.
 
 
 ##Author
