@@ -1,0 +1,75 @@
+<!--
+ * Copyright 2015 - Francesco Zerbinati (@zerbfra)
+ * Released under the terms of GNU GPL 3 or later.
+ *
+ * https://github.com/zerbfra/safari_eolo_extension
+ *
+ * Copyright 2012 - Davide Alberani <da@erlug.linux.it>
+ * Released under the terms of GNU GPL 3 or later.
+ *
+ * https://github.com/alberanid/chrome_eolo_extension
+-->
+   <html>
+   <head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/popup.js"></script>
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!-- Bootstrap latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <style>
+    body {
+
+      margin: 8px;
+      font-family: -apple-system, sans-serif;
+      font-size:small;
+      color: #4d4d4d;
+      background-color: #eae9ea;
+
+    }
+
+    img {
+      width:40px;
+      height: auto;
+    }
+
+    .eolo_header {
+      margin-bottom: 16px;
+    }
+
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid">
+
+     <div class="row eolo_header">
+       <div class="col-xs-10"><img src="images/eolo.png"></div>
+       <div class="col-xs-2 pull-right"><i id="refresh" class="fa fa-refresh"></i></div>
+     </div>
+
+     <div class="row">
+      <div class="col-xs-4">Disponibile</div>
+      <div class="col-xs-8"><span id="traffic_left" class="ajax_info"></span></div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-4">Totale</div>
+      <div class="col-xs-8"><span id="traffic_total" class="ajax_info"></span></div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-xs-4">Voce</div>
+      <div class="col-xs-8"> <span id="voice_left" class="ajax_info"></span></div>
+    </div>
+
+  </div>
+
+</body>
+</html>
+
